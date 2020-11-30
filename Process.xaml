@@ -124,7 +124,7 @@
                 <InArgument x:TypeArguments="x:String">["&lt;html title='ACME System 1 - Work Items' /&gt;&lt;webctrl aaname='" + in_TransactionItem.ToString + "' tag='A' /&gt;"]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="576.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[&quot;Check&quot;]" />
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="576.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[&quot;Check vv&quot;]" />
             <ui:OnUiElementAppear ContinueOnError="{x:Null}" FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="On Element Appear 'SPAN'" sap:VirtualizedContainerService.HintSize="576.8,709.6" sap2010:WorkflowViewState.IdRef="OnUiElementAppear_1" RepeatForever="False">
               <ui:OnUiElementAppear.Body>
                 <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="516.8,532.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
